@@ -21,7 +21,8 @@
                 <label for="cardName">Card Name</label>
                 <input type="text" id="cardName" name="cardName" value="Gift Card 1" maxlength="100" required>
             </div>
- 
+            </br>
+            
             <div class="form-group">
                 <label for="cardType">Card Type</label>
                 <select id="cardType" name="cardType" required>
@@ -32,17 +33,20 @@
                     <option value="Entertainment">Entertainment</option>
                 </select>
             </div>
- 
+            </br>
+
             <div class="form-group">
                 <label for="cardValue">Card Value ($)</label>
                 <input type="number" id="cardValue" name="cardValue" value="50.00" min="0" step="0.01" required>
             </div>
- 
+            </br>
+
             <div class="form-group">
                 <label for="points">Points Required</label>
                 <input type="number" id="points" name="points" value="5000" min="0" step="1" required>
             </div>
- 
+            </br>
+
             <div class="form-actions">
                 <button type="submit">Submit</button>
                 <a href="card-details.php" class="button-link">Cancel</a>
