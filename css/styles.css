@@ -1,0 +1,16 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card {
+    border: 1px solid #000;
+    padding: 16px;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    display: block;
+}

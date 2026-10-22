@@ -1,0 +1,12 @@
+AI Tools Used: Claude
+Prompts: 
+    1. Based on my wireframes, translate each page into their associated html structures.
+    2. For the card list page, can you write some css to get them to show up next to each other like in the wireframes rather than one on top of the other?
+    3. generate me a stock gift card png to use for the placeholder image.
+
+How AI supported my work: I used claude to translate my wireframes from HW1 into their respective html structure. Claudes output was mostly correct, however i had to edit some of the naming conventions.
+ I then asked claude to use CSS to create the correct page layout as shown in my wireframes. Finally i had it generate me a stock gift-card.png file to use for the placeholder image on the card-list page.
+ 
+One suggestion i changed: When claude first translated my wireframes into their html structure, it changed my gift card placeholder names like 'gift card 1', 'gift card 2', ect. into names that used actual companies such as
+    'Amazon gift card' or 'Target gift card' which i did not ask it to do. I then manually went through each generated html file and changed the names back to the placeholder names i used in my wireframes to ensure that the 
+    web page matched up my wireframes from the previous assignment.
